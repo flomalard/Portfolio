@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de Florent Malard">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio de Florent Malard</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Florent MALARD</h1>
+
+        <nav>
+            <a href="#presentation">Présentation</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="presentation">
+
+            <h2>Présentation</h2>
+
+            <div class="content">
+
+                <img src="Images/Moi.png" alt="Photo de moi">
+
+                <div class="presentationText">
+                    <p>Présentation à venir ...</p>
+                </div>
+
+            </div>
+
+        </section>
+            
+        <section id="projets">
+
+            <h2>Projets</h2>
+
+            <div class="content">
+                
+                <article>
+                    <a href="https://flomalard.github.io/ProjetMiniRpg/">
+                    <h3>Mini RPG</h3>
+
+                        <img class="projet" src="Images/CaptureProjetMiniRPG.png" alt="Page d'acceuil du projet mini RPG avec sélecteur de personnage">
+
+                    <div class="techs">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Javascript</p>
+                    </div>
+                    </a>
+                </article>
+                
+                <article>
+                    <a href="#">
+                    <h3>Projet 2</h3>
+                    <div class="projet">
+                        <p>Projet à venir</p>
+                    </div>
+                    <div class="techs">
+                        <p>tech 1</p>
+                        <p>tech 2</p>
+                        <p>tech 3</p>
+                    </div>
+                    </a>
+                </article>
+
+                <article>
+                    <a href="#">
+                    <h3>Projet 3</h3>
+                    <div class="projet">
+                        <p>Projet à venir</p>
+                    </div>
+                    <div class="techs">
+                        <p>tech 1</p>
+                        <p>tech 2</p>
+                        <p>tech 3</p>
+                    </div>
+                    </a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact</h2>
+
+            <p>Prenez contact ! Je suis disponible par mail et par téléphone, ou via le formulaire ci-dessous.</p>
+            <a href="mailto:florent.malard@hotmail.fr">florent.malard@hotmail.fr</a>
+            <p>06 23 71 02 12</p>
+              
+            <form action="contact.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+              
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="objet">Objet du message :</label>
+                <input type="text" id="objet" name="objet" required>
+              
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              
+                <input type="submit" value="Envoyer">
+            </form>
+              
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>A venir ...</p>
+    </footer>
+
+</body>
+
+</html>
