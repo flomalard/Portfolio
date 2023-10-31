@@ -23,25 +23,27 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   padding: 1rem 3rem;
   border-right: 1px solid #424D52;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: normal;
   padding: 2rem;
+  align-self: start;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: normal;
   padding: 1rem;
   text-indent: 3rem;
 }
 
 p {
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -63,10 +65,10 @@ header a {
   font-size: 2rem;
   text-decoration: none;
   padding: 1rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 header a:hover {
-  border: 1px solid #E14631;
+  border: 2px solid #E14631;
   border-radius: 2rem;
 }
 
@@ -137,14 +139,100 @@ section {
   color: #FFFFFF;
 }
 .techs p {
+  font-size: 1.4rem;
   background-color: #E14631;
   border-radius: 5rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.5rem 0.1rem;
   margin: 0 1rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+#contact p {
+  text-align: center;
+}
+#contact a {
+  display: flex;
+  margin: 1rem 5rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+  background-color: #E14631;
+  padding: 1rem;
+  border: 2px solid #E14631;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+#contact a:hover {
+  color: #E14631;
+  background-color: #FFFFFF;
+}
+
+i {
+  padding-right: 1rem;
+}
+
+form {
+  padding: 1rem;
+  border: 2px solid #E14631;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-size: 1.8rem;
+}
+
+label {
+  padding: 1rem 2rem 1rem;
+  text-align: start;
+}
+
+input, textarea {
+  background-color: #FFFFFF;
+  border: 2px solid transparent;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+input:hover, textarea:hover {
+  border: 2px solid #E14631;
+}
+
+input:focus, textarea:focus {
+  outline-offset: -3px;
+  outline: 2px solid #E14631;
+}
+
+input[type=submit] {
+  color: #FFFFFF;
+  background-color: #E14631;
+  align-self: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 3rem;
+  margin: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  color: #E14631;
+  background-color: #FFFFFF;
 }
 
 /****    Footer    ****/
 footer {
   background-color: #313638;
   border-top: 2px solid #E14631;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
